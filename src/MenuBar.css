@@ -1,0 +1,41 @@
+.iconMenu {
+    color: #424242;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.buttonWrapper:hover {
+    background-color: #e0e0e0;
+}
+
+.buttonSave:hover {
+    background-color: #e0e0e0;
+}
+
+.buttonSave {
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    justify-content: center;
+    align-self: center;
+}
+
+.vLine {
+    border-left: 0.5px dotted #757575;
+    height: 100%;
+}
+
+.wrapper {
+    flex: 0 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
